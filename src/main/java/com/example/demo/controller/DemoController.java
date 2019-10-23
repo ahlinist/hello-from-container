@@ -8,11 +8,11 @@ public class DemoController {
 
     @GetMapping
     public String hello() {
-        return "Hello from container! v2";
+        return "Hello from container! v1";
     }
 
     @GetMapping("/turn-off")
     public void turnOff() {
-        System.exit(3);
+        System.exit(0);
     }
 }
