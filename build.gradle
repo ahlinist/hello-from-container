@@ -15,9 +15,6 @@ repositories {
 dependencies {
 	//spring
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
-	//auth0
-	compile 'com.auth0:mvc-auth-commons:1.+'
 	//testing
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

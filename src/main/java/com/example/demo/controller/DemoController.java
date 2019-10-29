@@ -8,7 +8,7 @@ public class DemoController {
 
     @GetMapping
     public String hello() {
-        return "Hello from container! v11";
+        return "Hello from container! v13";
     }
 
     @GetMapping("/turn-off")
