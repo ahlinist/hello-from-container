@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @GetMapping
+    @GetMapping("/")
     public String hello() {
-        return "Hello from container! v15";
+        return "Hello from container! v16";
     }
 
     @GetMapping("/hello")
     public String helloPath() {
-        return "Hello from container with context path! v15";
+        return "Hello from container with context path! v16";
     }
 
     @GetMapping("/turn-off")
