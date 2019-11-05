@@ -8,7 +8,12 @@ public class DemoController {
 
     @GetMapping
     public String hello() {
-        return "Hello from container! v13";
+        return "Hello from container! v15";
+    }
+
+    @GetMapping("/hello")
+    public String helloPath() {
+        return "Hello from container with context path! v15";
     }
 
     @GetMapping("/turn-off")
